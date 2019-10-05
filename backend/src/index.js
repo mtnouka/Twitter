@@ -10,11 +10,12 @@ const io = require('socket.io')(server);
 mongoose.connect(
     'mongodb://mtnouka:tuiter19@ds153593.mlab.com:53593/goweekbackend', 
     {
-        useNewUrlParser: true
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
     }
 );
 
-app.use((req, res, next) =>{
+app.use((req, res, next) => {
     req.io = io;
 
     return next();
