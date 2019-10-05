@@ -8,7 +8,7 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 mongoose.connect(
-    'mongodb://mtnouka:tuiter19@ds153593.mlab.com:53593/goweekbackend', 
+    'mongodb://<username>:<password>@ds153593.mlab.com:53593/<database>', 
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
