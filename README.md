@@ -27,4 +27,4 @@ Aplicação cópia do Twitter desenvolvida durante a GoWeek da Rocketseat.
 - Para funcionar perfeitamente precisamos realizar alguns ajustes de acordo com a sua máquina, para isso abra o seguinte caminho:
   mobile/src/services/api.js: linha 4. Aqui alteramos a baseURL, para o endereço que guardamos no passo anterior
   
-### Para rodar a versão mobile você por emular pelo PC tranquilamente clicando em alguma das opções na lateral esquerda da interface do Expo, ou você pode optar por baixar o Expo no seu smartphone e ler o QRCode.
+##### Para rodar a versão mobile você por emular pelo PC tranquilamente clicando em alguma das opções na lateral esquerda da interface do Expo, ou você pode optar por baixar o Expo no seu smartphone e ler o QRCode.
